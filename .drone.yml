@@ -16,9 +16,3 @@ steps:
     pull: if-not-exists
     commands:
       - x=0;while [ $x -lt 5 ]; do echo "good bye"; sleep 1; x=$((x+1)); done
-
-  - name: an error step
-    image: busybox
-    pull: if-not-exists
-    commands:
-      - yq --help
