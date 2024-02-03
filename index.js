@@ -2,5 +2,5 @@ const express = require('express');
 
 const app = express()
 
-app.get('/', (req, res) => res.send('y ahora qqss'))
+app.get('/', (req, res) => res.send('y ahora qqsssss'))
 app.listen(3000, () => console.log('Server ready'))
